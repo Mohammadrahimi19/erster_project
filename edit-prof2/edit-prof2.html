@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./edit-prof2.css">
+    <link rel="stylesheet" media="screen and (max-width:752px)" href="./edit-prof-mobile2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container"><!-------------------------------container---------------------------------->
+   
+        <div class="header1-row">
+            
+                <ul class="header"> <!---------------------------------header---------------------------------->
+                  <li id="hamberger" onclick="Open()">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                  </li>
+                    <li class="item-logo" >
+                            <img src="../logo green.png" alt="logo">               
+                    </li> 
+                  
+                    <li class="item">خانه</li>
+                    <li class="item">دوره ها</li>
+                    <li class="item">بلاگ</li>
+                    <li class="item">تماس باما</li>
+                    <li class="item">درباره ما</li>
+                    <li class="icon"><a href="#"><img  src="../1/user.png" width="40%" height="5%" alt="user-icon"></a> 
+                    <a href="">  <img src="../1/shoping.png" width="40%"  height="5%" alt="shoping-icon"></a></li>
+                </ul>
+        </div> 
+                <!---------------------------------header---------------------------------->
+
+       <div id="main" class="row">
+            <div id="main-left"  class="col-md-7 col-xs-8"  >
+                
+              <div id="left-first">
+                <div id="img-prof"><img id="s" src="../teacher-doing-her-classes-online-home_-1.png"  alt="prof"></div>
+                <button type="submit">اعمال تغییرات</button>
+              </div>
+                    <form  id="form" action="">
+                      
+                    
+                        <label >نام کاربری :</label>
+                        <input type="text" name="name" id="name" value="Mohammad Rahimi" required>
+
+                        <label for="number">شماره تلفن :</label>
+                        <input type="number" name="number" id="number" value="1234557999" required>
+
+
+                        <label >  رمز عبور :</label>
+                        <input type="password"  name="code" id="code" value="1345679" required>
+                        
+                        <label > تاریخ تولد  :</label>
+                        <input type="date"  name="code" id="code" required>
+                         
+                        <label >ایمیل :</label>
+                        <input type="email" name="email" id="email" value="mmmad@gmail.com" required>
+
+                        <label > کد ملی :</label>
+                        <input type="number"  name="code" id="code" value="12340" required>
+
+                     </form>
+
+
+            </div>
+            <!---------------------------------left---------------------------------->
+
+            <div id="main-right" class="col-md-4 col-sm-4">
+
+                <div class="card" id="card1">
+                  <div id="hamberger-close" onclick="Close()">
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                  </div>
+                  <div class="card-text text-center " id="card-text" style="width: fit-content; margin:0 auto">
+                  <img src="../1/teacher-doing-her-classes-online-home_-4.png"  alt="">
+                  مریم مهاجر </div>
+                  <hr/>
+                </div>
+                <div class="d-flex" id="test-group" style="gap: 20px;flex-direction: column;">
+                  <div class="d-flex" id="test">
+                     <p>داشبورد</p>
+                     <img src="../1/icons8-home.png" alt="">
+                  </div>
+                  <div class="d-flex" id="test">
+                    <p>دوره ها</p>
+                    <img src="../1/menuu.png" alt="">
+                  </div>
+
+                  <div class="d-flex" id="test">
+                    <p>ویرایش پروفایل</p>
+                    <img src="../1//user-edit-svgrepo-com.png" alt=""> 
+                  </div>
+                  <div class="d-flex" id="test">
+                    <p> علاقه مندی</p>
+                    <img src="../1/Path 932.png" alt=""> 
+                  </div>
+                </div> 
+                <!---------------------------------right---------------------------------->
+               
+
+            </div>
+            
+       </div> 
+   
+</body>
+<script src="./edit-prof2.js"></script>
+
+</html>

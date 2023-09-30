@@ -1,0 +1,28 @@
+.header{
+    gap: 10px;
+    display: none;
+    padding: 0;
+}
+.header li{
+    font-size: smaller;
+}
+#main-left{
+        overflow: scroll;
+}
+#card{
+     flex: 0 0.1 90px;
+     border: 2px solid rgb(155, 217, 241);
+     font-size: 8px;
+     text-align: center;
+ }
+ #test{
+    height: 20%;
+    border-bottom: 2px solid silver;
+ }
+ #test img{
+    width: 5%;
+ }
+ 
+ #main-left{
+ order: 2;
+ }
